@@ -28,9 +28,9 @@
         </dependency>
 
         <dependency>
-            <groupId>dev.struchkov.ghost</groupId>
-            <artifactId>ghost-publisher</artifactId>
-            <version>0.0.3-SNAPSHOT</version>
+            <groupId>dev.struchkov</groupId>
+            <artifactId>autoresponder</artifactId>
+            <version>3.5.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -82,16 +82,6 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>com.google.cloud.tools</groupId>
-                <artifactId>jib-maven-plugin</artifactId>
-                <version>3.3.0</version>
-                <configuration>
-                    <to>
-                        <image>upagge/spring-boot-docker:jib-plugin</image>
-                    </to>
                 </configuration>
             </plugin>
         </plugins>
